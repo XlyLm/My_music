@@ -1,0 +1,23 @@
+.descCnt {
+  position: relative;
+  min-height: 360px;
+}
+.descCnt h3 {
+  font-weight: bold;
+  color: #000;
+}
+.descCnt p {
+  color: #666;
+  line-height: 20px;
+}
+.tag {
+  width: 4px;
+  height: 16px;
+  margin-right: 4px;
+  transform: translateY(3px);
+  background-color: #c10d0c;
+}
+.intro {
+  margin-top: 18px;
+}
+/*# sourceMappingURL=index.module.css.map */

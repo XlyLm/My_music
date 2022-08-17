@@ -1,0 +1,63 @@
+.carouselCnt{
+  background-size: 6000px;
+  background-position: center center;
+}
+//轮播图容器
+.wrapCnt{
+  position: relative;
+  width: 980px;
+  height: 285px;
+
+  .wrapper,.wrapImg{
+    width: 730px;
+    height: 285px;
+  }
+  .wrapImg{ cursor: pointer; }
+  //按钮
+  .next,.prev{
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    &:hover{ background-color: rgba(79,79,79,0.2); }
+  }
+  .next{
+    right: -274px;
+    transform: translate(100%,-50%);
+  }
+  .prev{
+    left: -24px;
+    transform: translate(-100%,-50%);
+  }
+}
+//下载pc端
+.download{
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  right: -1px;
+  width: 252px;
+  height: 285px;
+  background-image: url("/src/assets/img/download.png");
+
+  a{
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    text-indent: -9999px;
+    background: url("/src/assets/img/download.png") no-repeat 0 9999px;
+
+    &:hover{ background-position: 0 -290px; }
+  }
+
+  p{
+    margin: 10px auto;
+    color: #8d8d8d;
+  }
+}

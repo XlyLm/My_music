@@ -1,0 +1,115 @@
+.user{
+  padding: 40px;
+}
+.infoCnt{
+  margin-bottom: 42px;
+}
+.userImg{
+  padding: 2px;
+  border: 1px solid lightgrey;
+}
+
+.userInfo{
+  margin-left: 232px;
+  padding-top: 18px;
+}
+.nameCnt{
+  line-height: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.name{
+  position: relative;
+  h3{
+    font-weight: bold;
+    margin: 0;
+    span{ font-size: 20px; }
+    i{
+      font-size: 16px;
+      padding: 0 0.5em;
+      margin-left: 1em;
+      color: red;
+      border: 1px solid red;
+      border-radius: 1em;
+    }
+    a{
+      display: inline-block;
+      padding: 0 8px;
+      margin-left: 8px;
+      height: 26px;
+      line-height: 26px;
+      border: 1px solid lightgrey;
+      border-radius: 4px;
+      font-size: 12px!important;
+      font-weight: normal;
+      span{
+        font-size: 12px!important;
+      }
+    }
+    .followed{
+      &:hover{
+        .check{ display: none; }
+        .close{ display: inline; }
+      }
+      .check{ display: inline; }
+      .close{ display: none; }
+    }
+    .follow{
+      background-color: #0086b3;
+      color: white;
+    }
+  }
+}
+.gender{
+  margin-left: 8px;
+  color: #666;
+}
+.identify{
+  font-size: 14px;
+  margin-top: 8px;
+  color: #666;
+  img{
+    width: 14px;
+    height: 14px;
+    transform: translateY(4px);
+    margin-right: 8px;
+  }
+}
+.userBtn{
+  position: absolute;
+  right: 4px;
+  top: -4px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  a{
+    padding: 4px 1em;
+  }
+}
+.data{
+  height: 41px;
+  display: flex;
+  margin-bottom: 15px;
+  li{
+    padding: 0 40px 0 20px;
+    height: 41px;
+    line-height: 40px;
+    border-left: 1px solid #ddd;
+    a{
+      font-size: 20px;
+    }
+  }
+  .fst{
+    border-left: none;
+  }
+}
+.title{
+  line-height: 24px;
+  color: #666;
+  span{
+    margin-left: 6px;
+  }
+  .icon{
+    font-size: 18px;
+  }
+}

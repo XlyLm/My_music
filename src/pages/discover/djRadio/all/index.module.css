@@ -1,0 +1,25 @@
+.all,
+.allItem {
+  margin-top: 10px;
+}
+.list {
+  position: relative;
+  width: 48%;
+  min-height: 642px;
+}
+.list ul {
+  border: 1px solid lightgrey;
+}
+.list ul li:nth-of-type(2n+1) {
+  background-color: #f7f7f7;
+}
+.list ul li:hover {
+  background-color: #eee !important;
+}
+.list ul li .text {
+  width: 254px;
+}
+.name {
+  color: #999;
+}
+/*# sourceMappingURL=index.module.css.map */

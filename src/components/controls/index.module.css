@@ -1,0 +1,15 @@
+.ctrls {
+  width: 80px;
+}
+.ctrls a {
+  margin-right: 4px;
+  opacity: 0.6;
+  color: #666;
+}
+.ctrls a:hover {
+  opacity: 1;
+}
+.ctrls .doc {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=index.module.css.map */

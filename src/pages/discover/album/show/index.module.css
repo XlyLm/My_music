@@ -1,0 +1,23 @@
+.list {
+  margin: 20px 0 0 -33px;
+}
+.list li {
+  width: 153px;
+  height: 210px;
+  padding: 0 0 30px 33px;
+  line-height: 1.4;
+}
+.page {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+/*# sourceMappingURL=index.module.css.map */

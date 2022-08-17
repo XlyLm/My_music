@@ -1,0 +1,40 @@
+.listCnt{
+  position: relative;
+  min-height: 740px;
+  padding-bottom: 32px;
+  margin-top: 20px;
+  .list{
+    li{
+      width: 126px;
+      height: 154px;
+      padding: 0 0 30px 17px;
+      line-height: 1.4;
+      &>a{
+        height: 126px;
+      }
+      p{
+        position: relative;
+        margin: 8px 0 0 0;
+        i{
+          position: absolute;
+          cursor: default;
+          top: -8px;
+          right: 0;
+          user-select: none;
+          color: red;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+.page{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+  ul{ text-align: center; }
+  button{ line-height: 10px!important; }
+}

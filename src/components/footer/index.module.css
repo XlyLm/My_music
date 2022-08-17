@@ -1,0 +1,63 @@
+.footerCnt {
+  position: relative;
+  height: 172px;
+  overflow: hidden;
+  border-top: 1px solid #d3d3d3;
+  background: #f2f2f2;
+  font-size: 12px;
+}
+.footer {
+  width: 980px;
+  margin: 0 auto;
+}
+.footer,
+.footer a {
+  color: #666;
+}
+.footer p {
+  margin: 0;
+}
+.copy {
+  float: left;
+  width: 520px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+.copy .link a {
+  color: #999;
+}
+.copy .link .line {
+  margin: 0 2px 0 4px;
+  color: #c2c2c2;
+}
+.copy .sep {
+  margin-right: 12px;
+}
+.copy .web {
+  margin-right: 10px;
+}
+.copy .police {
+  font-size: 1em;
+}
+.enter {
+  width: 420px;
+  margin-top: 33px;
+  float: right;
+}
+.enter li {
+  float: right;
+  width: 60px;
+  height: 70px;
+  margin-left: 12px;
+  text-align: center;
+  color: #666;
+}
+.enter li a {
+  display: block;
+  width: 50px;
+  line-height: 45px;
+  font-size: 45px;
+  margin: 0 auto;
+  color: #c2c2c2;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,62 @@
+.line{ left: 238px; }
+//左侧导航
+.left{
+  position: relative;
+  width: 238px;
+  height: 600px;
+  padding-top: 40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  h3{
+    margin: 0;
+  }
+}
+.nav,.menu{
+  width: 100%;
+  height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding-left: 36px;
+  line-height: 36px;
+  &:hover{ color: #000; }
+}
+.menu{
+  padding-left: 16px;
+  span{
+    color: #999;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+}
+.songs{
+  height: 40px;
+  padding: 6px 0 6px 20px;
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
+.content{
+  margin-left: 52px;
+  p{
+    line-height: 20px;
+    padding-right: 4px;
+    &:first-of-type{ color: #333; }
+    &:last-of-type{ color: #999; }
+  }
+}
+.nav,.songs{
+  &:hover{
+    background-color: #eee;
+  }
+}
+.active{
+  background-color: #eee!important;
+}
+//右侧展示
+.right{
+  position: relative;
+  width: 740px;
+  background-color: rgb(255,255,255);
+}

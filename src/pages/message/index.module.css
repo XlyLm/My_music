@@ -1,0 +1,57 @@
+.line {
+  left: 184px;
+}
+.nav {
+  width: 184px;
+}
+.title {
+  box-sizing: content-box;
+  height: 30px;
+  padding: 32px 0 14px 40px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.list {
+  border-top: 1px solid #ddd;
+}
+.list li {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+.list li a {
+  font-size: 14px;
+  width: 144px;
+  height: 53px;
+  padding-left: 40px;
+  background: #f7f7f7;
+  border-top: 1px solid #fff;
+  line-height: 53px;
+}
+.list li i {
+  position: relative;
+  top: 2px;
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list li .active {
+  background-color: #fff;
+}
+.btn {
+  width: 112px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px auto 0;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+}
+.content {
+  width: 796px;
+  padding: 40px;
+}
+/*# sourceMappingURL=index.module.css.map */

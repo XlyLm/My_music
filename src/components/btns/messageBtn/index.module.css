@@ -1,0 +1,19 @@
+.msg {
+  margin-right: 8px;
+  width: 90px;
+  height: 32px;
+  color: #666;
+  line-height: 26px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+.msg:hover {
+  color: #999;
+}
+.msg i {
+  position: relative;
+  top: 2px;
+  font-size: 16px;
+  margin-right: 4px;
+}
+/*# sourceMappingURL=index.module.css.map */

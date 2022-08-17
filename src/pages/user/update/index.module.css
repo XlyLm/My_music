@@ -1,0 +1,38 @@
+.update {
+  padding: 40px;
+}
+.title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+}
+.nav {
+  height: 39px;
+  line-height: 39px;
+  margin-bottom: 24px;
+  border: 1px solid #ccc;
+  border-width: 2px 1px 1px;
+}
+.nav li {
+  height: 39px;
+}
+.nav li a {
+  position: relative;
+  top: -2px;
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  width: 138px;
+  height: 100%;
+  border: 1px solid transparent;
+  border-top-width: 2px;
+  border-bottom-color: #ccc;
+  border-top-color: #ccc;
+}
+.nav li .active {
+  border-top-color: red;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+  border-bottom-color: white;
+}
+/*# sourceMappingURL=index.module.css.map */

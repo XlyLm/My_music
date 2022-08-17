@@ -1,0 +1,123 @@
+.line {
+  left: 680px;
+}
+.left {
+  position: relative;
+  width: 680px;
+  min-height: 360px;
+  padding: 20px 30px;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.btn a {
+  margin-left: 10px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  color: #333;
+  border: 1px solid lightgrey;
+}
+.btn a:hover {
+  background-color: #f7f7f7;
+}
+.btn a:last-of-type i {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.btn i {
+  font-size: 12px;
+  color: #9B0909;
+}
+.list {
+  margin-top: 20px;
+}
+.list li {
+  padding: 20px 0;
+  border-bottom: 1px solid #e8e8e9;
+}
+.list .head {
+  width: 45px;
+  height: 45px;
+}
+.list .info {
+  margin-left: 54px;
+}
+.list .name {
+  font-size: 14px;
+}
+.list .name a {
+  color: #3967FF;
+}
+.list .name span {
+  color: #999;
+  margin-left: 10px;
+}
+.list .name .tag {
+  width: 12px;
+  height: 12px;
+  transform: translateY(4px);
+}
+.list .date {
+  color: #999;
+  margin-top: 10px;
+}
+.list .title {
+  margin-top: 10px;
+}
+.list .other {
+  margin-top: 18px;
+  line-height: 18px;
+}
+.list .other span {
+  margin: 0 6px;
+  color: #999;
+}
+.list .other a {
+  color: #2bb4b4;
+}
+.list .other a:hover {
+  color: #3967FF;
+}
+.right {
+  width: 300px;
+}
+.userInfo {
+  border-bottom: 1px solid lightgrey;
+  background-color: #f5f5f5;
+}
+.star {
+  padding: 20px 30px;
+  position: relative;
+  min-height: 240px;
+}
+.starList li {
+  position: relative;
+  height: 65px;
+  padding: 10px 0;
+}
+.starList .item {
+  width: 172px;
+}
+.starList .follow {
+  position: absolute;
+  right: 8px;
+  top: 20px;
+  width: 52px;
+  height: 22px;
+  color: #666;
+  line-height: 20px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  transition: all 0.5s;
+}
+.starList .follow:hover {
+  border-color: #999;
+}
+.starList .follow span {
+  font-weight: bold;
+  color: red;
+  font-size: 14px;
+}
+/*# sourceMappingURL=index.module.css.map */

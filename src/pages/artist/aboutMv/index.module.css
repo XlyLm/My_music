@@ -1,0 +1,16 @@
+.mv {
+  position: relative;
+  min-height: 200px;
+}
+.mv ul {
+  margin: 20px 0 0 -29px;
+}
+.mv ul li {
+  width: 137px;
+  height: 140px;
+  padding: 0 0 30px 30px;
+}
+.mv p {
+  margin-top: 8px;
+}
+/*# sourceMappingURL=index.module.css.map */

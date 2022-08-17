@@ -1,0 +1,63 @@
+.mTable{
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  th{
+    height: 38px;
+    color: #666;
+    line-height: 20px;
+    vertical-align: top;
+    font-weight: normal;
+    background-color: #f7f7f7;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+  }
+  th,td{ padding: 8px 10px; }
+  tbody{
+    tr:nth-of-type(2n+1){ background-color: #f7f7f7; }
+    tr:hover .time{
+      &>div{ display: block; }
+      &>span{ display: none; }
+    }
+    td{
+      height: 30px;
+      line-height: 18px;
+    }
+    //排名
+    .rank{
+      color: #999;
+      a{
+        color: #999;
+        font-weight: bold;
+        font-size: 18px;
+        &:hover{ color: #666; }
+      }
+    }
+    //标题
+    .name{
+      color: #666;
+      &>span{
+        position: relative;
+        padding-right: 20px;
+        max-width: 100%;
+      }
+      .mv{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: red;
+      }
+    }
+    //时常
+    .time{
+      &>span{ display: block; }
+      &>div{ display: none; }
+    }
+  }
+}
+//表头设置
+.w1,.w2,.w3,.w4,.w5{ border-bottom: 1px solid lightgrey; }
+.w1,.w2,.w3,.w4{ border-right: 1px solid lightgrey; }
+.w1{ width: 74px; }
+.w3{ width: 111px; }
+.w4{ width: 14%; }
+.w5{ width: 20%; }

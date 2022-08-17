@@ -1,0 +1,110 @@
+.line {
+  left: 710px;
+}
+.left {
+  width: 710px;
+  padding: 46px 30px 40px 40px;
+}
+.infoCnt {
+  position: relative;
+  min-height: 326px;
+}
+.songsImg {
+  width: 200px;
+  height: 200px;
+  padding: 4px;
+  border: 1px solid lightgrey;
+}
+.info {
+  margin-left: 230px;
+}
+.title {
+  display: flex;
+  margin-bottom: 16px;
+  line-height: 24px;
+  font-size: 20px;
+}
+.title > div:first-of-type {
+  height: 24px;
+}
+.creator {
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.creator .head {
+  margin-right: 8px;
+}
+.creator > img {
+  transform: translateY(12px);
+}
+.creator .time {
+  margin-left: 12px;
+  color: #999;
+}
+.btns {
+  margin-bottom: 20px;
+}
+.tag {
+  margin-bottom: 8px;
+}
+.tag span:first-of-type {
+  margin-right: 8px;
+}
+.descript {
+  color: #666;
+  line-height: 18px;
+}
+.descript span {
+  color: #333;
+  margin-right: 6px;
+}
+.songs {
+  position: relative;
+  min-height: 360px;
+}
+.songs .playcount {
+  position: absolute;
+  right: 4px;
+}
+.songs .playcount span {
+  color: #c20c0c;
+}
+.commentCnt {
+  position: relative;
+  margin-top: 36px;
+  min-height: 360px;
+}
+.comment {
+  min-height: 120px;
+}
+.page {
+  margin-top: 12px;
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+.right {
+  width: 270px;
+  padding: 20px 40px 40px 30px;
+}
+.love {
+  position: relative;
+  min-height: 120px;
+}
+.love div {
+  margin-bottom: 12px;
+}
+.love ul {
+  padding-bottom: 25px;
+  margin-left: -13px;
+}
+.love ul li {
+  width: 53px;
+  height: 53px;
+  padding: 0 0 13px 13px;
+}
+/*# sourceMappingURL=index.module.css.map */

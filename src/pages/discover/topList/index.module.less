@@ -1,0 +1,97 @@
+.line{ left: 240px }
+//左侧导航
+.left{
+  position: relative;
+  width: 240px;
+  min-height: 360px;
+}
+.nav{
+  margin-top: 40px;
+  //标题
+  h2{
+    font-size: 14px;
+    color: #000;
+    margin: 20px 0 0;
+    padding: 0 10px 12px 15px;
+  }
+  //导航元素
+  li{
+    a{ padding: 10px 0 10px 20px; }
+    span{ color: #999; }
+    &:hover{ background-color: #e6e6e6; }
+  }
+  .active{ background-color: #e6e6e6; }
+  .list .text{
+    margin-left: 52px;
+    line-height: 20px;
+    p:first-of-type{ color: #000; }
+    p:last-of-type{ color: #999; }
+  }
+}
+//右侧歌单
+.right{ width: 740px; }
+//歌单信息
+.songsInfo{
+  height: 238px;
+  position: relative;
+  padding: 40px;
+}
+//歌单图片
+.imgCnt{
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+//信息
+.info{ padding: 20px 0 0 184px; }
+.sheetName{
+  line-height: 24px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: normal;
+}
+.update{
+  color: #666;
+  line-height: 35px;
+  margin-bottom: 20px;
+  span{ margin-left: 4px; }
+  span:last-child{ color: #999; }
+}
+//歌曲列表
+.songs{
+  position: relative;
+  padding: 0 30px 40px 40px;
+  min-height: 360px;
+}
+.playCount{
+  position: absolute;
+  right: 0;
+  span{
+    color: #c20c0c;
+    font-weight: bold;
+  }
+}
+//评论
+.commentCnt{
+  padding: 0 30px 40px 40px;
+  h3{
+    margin: 0;
+  }
+}
+.comment{
+  position: relative;
+  min-height: 360px;
+  margin-top: 18px;
+  padding-bottom: 36px;
+}
+.page{
+  position: absolute;
+  min-width: 360px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+  ul{ text-align: center; }
+  button{ line-height: 10px!important; }
+}

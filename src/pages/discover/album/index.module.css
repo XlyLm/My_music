@@ -1,0 +1,22 @@
+.cnt {
+  padding: 40px;
+}
+.hotAlbums ul {
+  margin: 20px 0 0 -33px;
+}
+.hotAlbums ul li {
+  width: 153px;
+  height: 210px;
+  padding: 0 0 30px 33px;
+  line-height: 1.4;
+}
+.allAlbums {
+  position: relative;
+  padding-bottom: 32px;
+  min-height: 360px;
+  color: #c7c7c7;
+}
+.allAlbums .line {
+  margin: 0 8px;
+}
+/*# sourceMappingURL=index.module.css.map */

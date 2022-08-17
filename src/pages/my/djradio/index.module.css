@@ -1,0 +1,54 @@
+.dj {
+  padding: 40px;
+  position: relative;
+  min-height: 240px;
+}
+.list {
+  margin-bottom: 24px;
+}
+.list li {
+  height: 50px;
+  padding: 10px 0;
+  line-height: 50px;
+}
+.list li:hover .content .btn {
+  display: block;
+}
+.content {
+  position: relative;
+  width: 488px;
+  height: 100%;
+  margin-left: 12px;
+  padding-right: 60px;
+  line-height: 24px;
+}
+.content h3 {
+  margin: 0;
+}
+.content a {
+  font-size: 14px;
+  color: #333;
+}
+.content p,
+.content p a {
+  color: #999;
+  font-size: 12px;
+}
+.btn {
+  display: none;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+.btn a {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #999;
+}
+.btn a:hover {
+  color: #666;
+}
+.count {
+  color: #999;
+}
+/*# sourceMappingURL=index.module.css.map */

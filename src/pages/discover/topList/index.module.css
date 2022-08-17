@@ -1,0 +1,113 @@
+.line {
+  left: 240px;
+}
+.left {
+  position: relative;
+  width: 240px;
+  min-height: 360px;
+}
+.nav {
+  margin-top: 40px;
+}
+.nav h2 {
+  font-size: 14px;
+  color: #000;
+  margin: 20px 0 0;
+  padding: 0 10px 12px 15px;
+}
+.nav li a {
+  padding: 10px 0 10px 20px;
+}
+.nav li span {
+  color: #999;
+}
+.nav li:hover {
+  background-color: #e6e6e6;
+}
+.nav .active {
+  background-color: #e6e6e6;
+}
+.nav .list .text {
+  margin-left: 52px;
+  line-height: 20px;
+}
+.nav .list .text p:first-of-type {
+  color: #000;
+}
+.nav .list .text p:last-of-type {
+  color: #999;
+}
+.right {
+  width: 740px;
+}
+.songsInfo {
+  height: 238px;
+  position: relative;
+  padding: 40px;
+}
+.imgCnt {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+.info {
+  padding: 20px 0 0 184px;
+}
+.sheetName {
+  line-height: 24px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: normal;
+}
+.update {
+  color: #666;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.update span {
+  margin-left: 4px;
+}
+.update span:last-child {
+  color: #999;
+}
+.songs {
+  position: relative;
+  padding: 0 30px 40px 40px;
+  min-height: 360px;
+}
+.playCount {
+  position: absolute;
+  right: 0;
+}
+.playCount span {
+  color: #c20c0c;
+  font-weight: bold;
+}
+.commentCnt {
+  padding: 0 30px 40px 40px;
+}
+.commentCnt h3 {
+  margin: 0;
+}
+.comment {
+  position: relative;
+  min-height: 360px;
+  margin-top: 18px;
+  padding-bottom: 36px;
+}
+.page {
+  position: absolute;
+  min-width: 360px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+/*# sourceMappingURL=index.module.css.map */

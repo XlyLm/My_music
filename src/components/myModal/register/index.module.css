@@ -1,0 +1,24 @@
+.registerCnt {
+  padding-top: 36px;
+}
+.form {
+  width: 300px;
+}
+.register {
+  width: 80%;
+  margin-left: 30px;
+}
+.agreement {
+  height: 32px;
+  line-height: 32px;
+}
+.agreement a {
+  color: #3967FF;
+}
+.footer {
+  line-height: 54px;
+  padding: 0 36px;
+  border-top: 1px solid gray;
+  background-color: #f7f7f7;
+}
+/*# sourceMappingURL=index.module.css.map */

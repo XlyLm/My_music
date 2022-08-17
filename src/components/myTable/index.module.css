@@ -1,0 +1,88 @@
+.mTable {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+}
+.mTable th {
+  height: 38px;
+  color: #666;
+  line-height: 20px;
+  vertical-align: top;
+  font-weight: normal;
+  background-color: #f7f7f7;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+.mTable th,
+.mTable td {
+  padding: 8px 10px;
+}
+.mTable tbody tr:nth-of-type(2n+1) {
+  background-color: #f7f7f7;
+}
+.mTable tbody tr:hover .time > div {
+  display: block;
+}
+.mTable tbody tr:hover .time > span {
+  display: none;
+}
+.mTable tbody td {
+  height: 30px;
+  line-height: 18px;
+}
+.mTable tbody .rank {
+  color: #999;
+}
+.mTable tbody .rank a {
+  color: #999;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mTable tbody .rank a:hover {
+  color: #666;
+}
+.mTable tbody .name {
+  color: #666;
+}
+.mTable tbody .name > span {
+  position: relative;
+  padding-right: 20px;
+  max-width: 100%;
+}
+.mTable tbody .name .mv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+}
+.mTable tbody .time > span {
+  display: block;
+}
+.mTable tbody .time > div {
+  display: none;
+}
+.w1,
+.w2,
+.w3,
+.w4,
+.w5 {
+  border-bottom: 1px solid lightgrey;
+}
+.w1,
+.w2,
+.w3,
+.w4 {
+  border-right: 1px solid lightgrey;
+}
+.w1 {
+  width: 74px;
+}
+.w3 {
+  width: 111px;
+}
+.w4 {
+  width: 14%;
+}
+.w5 {
+  width: 20%;
+}
+/*# sourceMappingURL=index.module.css.map */

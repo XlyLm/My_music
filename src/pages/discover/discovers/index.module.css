@@ -1,0 +1,171 @@
+.lines {
+  left: 729px;
+}
+.left,
+.right {
+  height: 100%;
+}
+.left {
+  width: 729px;
+  padding: 20px 20px 40px;
+}
+.left .line {
+  margin: 0 12px;
+}
+.left .hotBody {
+  position: relative;
+  margin-top: 20px;
+  margin-left: -42px;
+  min-height: 460px;
+}
+.left .hotBody li {
+  width: 140px;
+  height: 200px;
+  padding: 0 0 30px 42px;
+}
+.left .hotBody .hotText a {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.left .recommend {
+  min-height: 302px;
+}
+.left .recommend .reBody {
+  position: relative;
+  margin-top: 20px;
+  margin-left: -42px;
+  min-height: 230px;
+}
+.left .recommend .reBody li {
+  width: 140px;
+  height: 210px;
+  padding: 0 0 30px 42px;
+}
+.left .recommend .reBody p {
+  padding-left: 4px;
+}
+.left .recommend .reBody .reText {
+  margin: 10px 0 6px;
+  line-height: 1.2;
+}
+.left .recommend .reBody .reText a {
+  font-size: 14px;
+  color: #000;
+  max-width: 100%;
+}
+.left .recommend .reBody .small {
+  color: #999;
+  margin: 0;
+}
+.left .newDish .dishs {
+  position: relative;
+  padding: 24px 28px 8px 28px;
+  height: 186px;
+  margin: 20px 0 37px;
+  border: 1px solid #d3d3d3;
+  background-color: #f5f5f5;
+}
+.left .newDish .dish {
+  width: 100px!important;
+  height: 150px;
+}
+.left .newDish .next,
+.left .newDish .prev {
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 54px;
+  line-height: 54px;
+  font-size: 36px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.left .newDish .next:hover,
+.left .newDish .prev:hover {
+  background-color: rgba(79, 79, 79, 0.2);
+}
+.left .newDish .next {
+  right: -24px;
+  transform: translate(0, -50%) rotate(180deg);
+}
+.left .newDish .prev {
+  left: -24px;
+  transform: translate(0, -50%);
+}
+.left .rankTab {
+  position: relative;
+  height: 472px;
+  margin-top: 20px;
+  border: 1px solid #d3d3d3;
+  background-color: #f5f5f5;
+}
+.right {
+  width: 250px;
+}
+.right .isLogin {
+  background-color: #f7f7f7;
+  color: #666;
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+}
+.right .isLogin .notLogin {
+  height: 126px;
+}
+.right .isLogin .notLogin p {
+  width: 205px;
+  padding: 16px 0;
+  line-height: 22px;
+}
+.right .isLogin .notLogin a {
+  width: 100px;
+  height: 31px;
+  line-height: 31px;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.1s;
+  background-color: #db050d;
+}
+.right .isLogin .notLogin a:hover {
+  opacity: 0.8;
+}
+.right .artist,
+.right .hotDj {
+  padding: 0 20px;
+  margin-top: 15px;
+}
+.right .artist .arTitle a {
+  font-size: 12px;
+}
+.right .artist .arList {
+  margin-top: 6px;
+}
+.right .artist .arList li {
+  position: relative;
+  margin-top: 14px;
+  width: 100%;
+  height: 50px;
+  background: #fafafa;
+  user-select: none;
+}
+.right .artist .arList li:hover {
+  background-color: lightgrey;
+}
+.right .artist .arList .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.right .hotDj .djList {
+  margin-top: 6px;
+}
+.right .hotDj .djList li {
+  position: relative;
+  margin-top: 14px;
+  width: 100%;
+  height: 50px;
+}
+.right .hotDj .djList li:hover {
+  background: #fafafa;
+}
+/*# sourceMappingURL=index.module.css.map */

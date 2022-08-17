@@ -1,0 +1,70 @@
+.line {
+  left: 238px;
+}
+.left {
+  position: relative;
+  width: 238px;
+  height: 600px;
+  padding-top: 40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.left h3 {
+  margin: 0;
+}
+.nav,
+.menu {
+  width: 100%;
+  height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding-left: 36px;
+  line-height: 36px;
+}
+.nav:hover,
+.menu:hover {
+  color: #000;
+}
+.menu {
+  padding-left: 16px;
+}
+.menu span {
+  color: #999;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.songs {
+  height: 40px;
+  padding: 6px 0 6px 20px;
+}
+.songs img {
+  width: 40px;
+  height: 40px;
+}
+.content {
+  margin-left: 52px;
+}
+.content p {
+  line-height: 20px;
+  padding-right: 4px;
+}
+.content p:first-of-type {
+  color: #333;
+}
+.content p:last-of-type {
+  color: #999;
+}
+.nav:hover,
+.songs:hover {
+  background-color: #eee;
+}
+.active {
+  background-color: #eee !important;
+}
+.right {
+  position: relative;
+  width: 740px;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=index.module.css.map */

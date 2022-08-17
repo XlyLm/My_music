@@ -1,0 +1,94 @@
+.cnts {
+  padding: 40px;
+}
+.choose {
+  padding: 0 12px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  border: 1px solid darkgray;
+}
+.choose:hover {
+  opacity: 0.8;
+}
+.bd {
+  width: 700px;
+  min-height: 300px;
+  cursor: default;
+}
+.bd .chooseTitle {
+  padding: 12px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.bd .chooseTitle a {
+  width: 75px;
+  height: 26px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  line-height: 26px;
+}
+.bd .chooseTitle a:hover {
+  opacity: 0.8;
+}
+.bd .type {
+  width: 70px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.bd .content {
+  margin-left: 70px;
+  padding: 16px 15px 0 15px;
+  line-height: 24px;
+  border-left: 1px solid #e6e6e6;
+}
+.bd .content .line {
+  margin: 0 8px;
+  color: #d8d8d8;
+}
+.songsCnt {
+  position: relative;
+  min-height: 360px;
+}
+.songs {
+  margin: 30px 0 0 -50px;
+  min-height: 550px;
+}
+.songs li {
+  width: 140px;
+  height: 188px;
+  padding: 0 0 30px 50px;
+  line-height: 1.4;
+}
+.songs .by {
+  color: #999;
+  margin-right: 4px;
+}
+.songs .user {
+  display: flex;
+  line-height: 18px;
+}
+.songs .name {
+  max-width: 100px;
+}
+.songs .flagImg {
+  width: 12px;
+  height: 12px;
+  transform: translateY(4px);
+  margin-left: 4px;
+}
+.page {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+/*# sourceMappingURL=index.module.css.map */

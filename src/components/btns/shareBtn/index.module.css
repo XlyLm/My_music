@@ -1,0 +1,23 @@
+.share {
+  margin-right: 6px;
+  height: 31px;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 0 6px;
+  color: #666;
+  background-color: #f3f3f3;
+  border: 1px solid lightgrey;
+}
+.share:hover {
+  color: #666;
+  opacity: 0.8;
+}
+.share i {
+  position: relative;
+  top: -2px;
+}
+.count {
+  position: relative;
+  top: -3px;
+}
+/*# sourceMappingURL=index.module.css.map */

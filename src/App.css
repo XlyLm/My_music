@@ -1,0 +1,56 @@
+@import "~antd/dist/antd.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "iconfont/iconfont.css";
+@import "~my-reset/reset.css";
+
+.app{
+    position: relative;
+    min-height: 640px;
+}
+/*容器*/
+.vessel{
+    position: relative;
+    width: 982px;
+    min-height: 640px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+/*小标题*/
+.stitle{
+    height: 23px;
+    line-height: 23px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+/*分隔栏*/
+.line{
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: lightgrey;
+}
+/*top按钮*/
+.toTop{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(128,128,128,0.4);
+    font-weight: bolder;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(128,128,128,0.4);
+}
+.toTop:hover{
+    background-color: #f0f0f0;
+}
+/*.btn-1{*/
+/*    width: 100px;*/
+/*    height: 36px;*/
+/*    background-color: #f0f0f0;*/
+/*}*/

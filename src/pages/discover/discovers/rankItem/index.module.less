@@ -1,0 +1,85 @@
+.list{
+  position: relative;
+  width: 229px;
+  height: 100%;
+  border-right: 1px solid lightgrey;
+}
+//榜单头部
+.listHead{
+  height: 100px;
+  padding: 20px 0 0 19px;
+  .listImg,img{
+    width: 80px;
+    height: 80px;
+  }
+}
+//头部标题
+.listTitle{
+  width: 116px;
+  margin: 8px 0 0 12px;
+  p{
+    margin: 0;
+    a{
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .headCtrl{
+    margin-top: 10px;
+    a{
+      font-size: 26px;
+      font-weight: bold;
+      opacity: 0.35;
+      color: #666;
+      margin-right: 8px;
+      &:hover{ opacity: 0.6; }
+    }
+  }
+}
+//列表容器
+.listCnt{
+  min-height: 319px;
+  line-height: 32px;
+  li{
+    height: 32px;
+    position: relative;
+    &:nth-of-type(2n+1){ background-color: #e8e8e8; }
+    &:hover{
+      .songname{ width: 98px; }
+      .songCtl{ display: block!important; }
+    }
+    .songname{
+      width: 170px;
+      height: 100%;
+    }
+    //排行
+    .rank{
+      width: 58px;
+      padding: 0 12px;
+      font-size: 14px;
+      a{
+        font-weight: bolder;
+        color: #666;
+        opacity: 0.6;
+        &:hover{ opacity: 1; }
+      }
+    }
+  }
+  .good{ color: #c10d0c; }
+  //控件
+  .songCtl{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 78px;
+    height: 100%;
+  }
+}
+//跟多
+.all{
+  line-height: 32px;
+  padding-right: 16px;
+  background-color: #e8e8e8;
+}

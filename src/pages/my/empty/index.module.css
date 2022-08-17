@@ -1,0 +1,39 @@
+.empty {
+  padding: 105px 0 0 0;
+  margin: 0 auto;
+  width: 410px;
+}
+.empty p {
+  color: #999;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+.empty p i {
+  position: relative;
+  top: 2px;
+  color: #f0f0f0;
+  font-size: 20px!important;
+  font-weight: bold;
+  margin-right: 12px;
+}
+.empty p:last-of-type i {
+  font-size: 24px!important;
+  left: -2px;
+}
+.music i {
+  width: 64px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bolder;
+  color: #999;
+  font-size: 54px;
+}
+.content {
+  margin-left: 76px;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+/*# sourceMappingURL=index.module.css.map */

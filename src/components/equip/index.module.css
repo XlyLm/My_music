@@ -1,0 +1,32 @@
+.equip {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+.equip h3 {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.equip ul {
+  height: 65px;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+.equip ul a {
+  font-size: 36px;
+  color: #c5c5c5;
+}
+.equip ul .mac:hover {
+  color: gray;
+}
+.equip ul .windows:hover {
+  color: #20a8d8;
+}
+.equip ul .Android:hover {
+  color: #a2e110;
+}
+.equip p {
+  color: #999;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,138 @@
+.line{ left: 710px; }
+
+//左侧
+.left{
+  position: relative;
+  min-height: 360px;
+  width: 710px;
+  padding: 46px 30px 40px 40px;
+}
+.img{
+  padding: 4px;
+  border: 1px solid lightgrey;
+}
+.info{
+  padding-top: 24px;
+  margin-left: 172px;
+}
+.name{
+  display: flex;
+  margin-bottom: 24px;
+  line-height: 24px;
+  p{ font-size: 16px; }
+}
+.tag{
+  height: 20px;
+}
+.radio{
+  line-height: 31px;
+  i{
+    font-size: 24px;
+    margin-right: 8px;
+    font-weight: bold;
+    color: #999;
+  }
+  a:first-of-type{
+    font-size: 18px;
+    margin-right: 12px;
+  }
+}
+.btn{
+  margin-top: 20px;
+}
+.descCnt{
+  margin-top: 20px;
+  display: flex;
+  line-height: 24px;
+}
+.bigName{
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  span{ font-size: 16px; }
+}
+.time,.playCount{
+  color: #999;
+  margin-left: 18px;
+  height: 20px;
+  line-height: 30px;
+}
+.playCount span{
+  font-weight: bold;
+  color: #9B0909;
+}
+.desc{
+  margin-top: 18px;
+  color: #666;
+  line-height: 18px;
+  span{ margin-right: 1em; }
+}
+.list{
+  margin: 1em 0;
+  border: 1px solid lightgrey;
+  li{
+    display: flex;
+    line-height: 18px;
+    &>div{
+      height: 32px;
+      padding: 6px 10px;
+    }
+    &:hover {
+      &:not(:first-of-type){ background-color: #f2f2f2; }
+      .duration{
+        span{ display: none; }
+        .btns{ display: block!important; }
+      }
+    }
+  }
+  .listTitle{
+    border-bottom: 1px solid lightgrey;
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  .rank{
+    color: #999;
+    width: 66px;
+    a{
+      color: #999;
+      font-weight: bold;
+      font-size: 20px;
+      &:hover{ color: #666; }
+    }
+  }
+  .songName{
+    width: 236px;
+  }
+  .duration{
+    width: 110px;
+  }
+  .artist{
+    width: 100px;
+  }
+  .album{
+    width: 120px;
+  }
+  .btns{ display: none; }
+}
+//右侧
+.right{
+  width: 270px;
+  padding: 40px;
+}
+.title{ position: relative; }
+.all{
+  position: absolute;
+  right: 2px;
+}
+.rlist{
+  position: relative;
+  min-height: 120px;
+  margin-top: 20px;
+  li{
+    height: 50px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    p:first-of-type a{ color: #333; }
+    p:last-of-type span{ color: #999; }
+  }
+}

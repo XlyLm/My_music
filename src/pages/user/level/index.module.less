@@ -1,0 +1,132 @@
+.levelCnt{
+  padding: 70px 68px;
+}
+.curLevel{
+  margin-bottom: 2em;
+}
+.level{
+  font-size: 22px;
+  span{
+    color: red;
+    font-weight: bold;
+    margin-left: 0.5em;
+  }
+}
+.progressCnt{
+  user-select: none;
+  position: relative;
+  padding-top: 32px;
+  margin-top: 1em;
+}
+.progress{
+  height: 10px;
+  border-radius: 5px;
+  background-color: #dcdfe6;
+  span{
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    margin-left: 82px;
+    &:first-of-type,&:last-of-type{
+      width: 0;
+    }
+    &:first-of-type{
+      margin-left: 12px;
+    }
+    i{
+      position: relative;
+      left: 50%;
+      top: 0;
+      font-size: 16px;
+      transform: translate(-50%,-120%);
+      width: 20px;
+      height: 20px;
+      color: #dcdfe6;
+      line-height: 20px;
+      border-radius: 50%;
+    }
+    .active{
+      background-color: red;
+      color: white;
+    }
+  }
+}
+.slider{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  //width: 100%;
+  height: 10px;
+  border-radius: 5px;
+   background-color: rgb(255,165,141);
+}
+.update{
+  margin-top: 10px;
+  color: #999;
+}
+.curPower{
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 1.5em;
+  margin-bottom: 2.4em;
+}
+.power{
+  font-size: 22px;
+}
+.info{
+  padding-left: 1em;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 2em;
+  &::before{
+    position: relative;
+    left: -0.7em;
+    top: 0.7em;
+    display: block;
+    width: 4px;
+    height: 4px;
+    content: "";
+    border-radius: 50%;
+    background-color: rgb(255,165,141);
+  }
+}
+.detail a{
+  color: #0086b3;
+  &:hover{ opacity: 0.85; }
+}
+.next{
+  font-size: 22px;
+  margin-bottom: 1.5em;
+  span:first-of-type{
+    color: red;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-right: 6px;
+  }
+  span:last-of-type{
+    font-size: 18px;
+  }
+}
+.card{
+  font-size: 12px;
+}
+.other{
+  display: flex;
+  font-size: 12px;
+  color: #999;
+  margin-top: 1em;
+}
+.barCnt,.bar{
+  border-radius: 4px;
+}
+.barCnt{
+  width: 160px;
+  height: 4px;
+  margin: 5px 6px;
+  overflow: hidden;
+  background-color: #dcdfe6;
+}
+.bar{
+  height: 100%;
+  background-color: rgb(247,87,87);
+}

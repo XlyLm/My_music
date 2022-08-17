@@ -1,0 +1,66 @@
+.carouselCnt {
+  background-size: 6000px;
+  background-position: center center;
+}
+.wrapCnt {
+  position: relative;
+  width: 980px;
+  height: 285px;
+}
+.wrapCnt .wrapper,
+.wrapCnt .wrapImg {
+  width: 730px;
+  height: 285px;
+}
+.wrapCnt .wrapImg {
+  cursor: pointer;
+}
+.wrapCnt .next,
+.wrapCnt .prev {
+  position: absolute;
+  top: 50%;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.wrapCnt .next:hover,
+.wrapCnt .prev:hover {
+  background-color: rgba(79, 79, 79, 0.2);
+}
+.wrapCnt .next {
+  right: -274px;
+  transform: translate(100%, -50%);
+}
+.wrapCnt .prev {
+  left: -24px;
+  transform: translate(-100%, -50%);
+}
+.download {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  right: -1px;
+  width: 252px;
+  height: 285px;
+  background-image: url("/src/assets/img/download.png");
+}
+.download a {
+  width: 215px;
+  height: 56px;
+  margin: 186px 0 0 19px;
+  text-indent: -9999px;
+  background: url("/src/assets/img/download.png") no-repeat 0 9999px;
+}
+.download a:hover {
+  background-position: 0 -290px;
+}
+.download p {
+  margin: 10px auto;
+  color: #8d8d8d;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,13 @@
+.subscribe {
+  line-height: 31px;
+  padding: 0 6px;
+  background-color: #2d7eca;
+  color: white;
+  margin-right: 6px;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+.subscribe:hover {
+  opacity: 0.9;
+}
+/*# sourceMappingURL=index.module.css.map */

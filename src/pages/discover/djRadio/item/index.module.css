@@ -1,0 +1,94 @@
+.item,
+.newDjCnt {
+  margin-top: 10px;
+}
+.djListCnt {
+  margin-top: 35px;
+}
+.title {
+  position: absolute;
+  top: 12px;
+  right: 4px;
+}
+.title a {
+  color: #666;
+}
+.title span {
+  margin: 0 8px;
+}
+.active {
+  color: red!important;
+}
+.newDj {
+  position: relative;
+  width: 937px;
+  margin: 16px 0 0 -37px;
+  min-height: 222px;
+}
+.newDj li {
+  width: 150px;
+  margin-left: 37px;
+}
+.newDj li h3 {
+  margin: 13px 0 6px;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.newDj li p {
+  line-height: 18px;
+  color: #999;
+}
+.newDj .picture {
+  width: 150px;
+  height: 150px;
+}
+.djList {
+  position: relative;
+  margin-left: -30px;
+  min-height: 360px;
+}
+.djList > li {
+  width: 435px;
+  height: 120px;
+  margin-left: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+.djList .djImg {
+  width: 120px;
+  height: 120px;
+}
+.djList .djBody {
+  margin-left: 15px;
+  width: 300px;
+  overflow: hidden;
+}
+.djList .djBody h3 {
+  height: 64px;
+  margin: 0;
+  line-height: 64px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.djList .djBody p {
+  margin-bottom: 6px;
+  line-height: 20px;
+  color: #999;
+}
+.djList .djBody i {
+  margin-right: 6px;
+  font-weight: bold;
+}
+.page {
+  margin-top: 36px;
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+/*# sourceMappingURL=index.module.css.map */

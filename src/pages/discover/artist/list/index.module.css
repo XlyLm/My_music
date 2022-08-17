@@ -1,0 +1,42 @@
+.listCnt {
+  position: relative;
+  min-height: 740px;
+  padding-bottom: 32px;
+  margin-top: 20px;
+}
+.listCnt .list li {
+  width: 126px;
+  height: 154px;
+  padding: 0 0 30px 17px;
+  line-height: 1.4;
+}
+.listCnt .list li > a {
+  height: 126px;
+}
+.listCnt .list li p {
+  position: relative;
+  margin: 8px 0 0 0;
+}
+.listCnt .list li p i {
+  position: absolute;
+  cursor: default;
+  top: -8px;
+  right: 0;
+  user-select: none;
+  color: red;
+  font-size: 24px;
+}
+.page {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,49 @@
+.detail {
+  padding: 25px;
+}
+.title {
+  line-height: 22px;
+}
+.title h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.title a {
+  color: #0086b3;
+}
+.title a:hover {
+  opacity: 0.85;
+}
+.list li,
+.tip {
+  box-sizing: content-box;
+  padding-top: 12px;
+  padding-left: 14px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: solid 1px #e6e6e6;
+  color: #666;
+}
+.grad {
+  display: inline-block;
+  margin-right: 24px;
+  width: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+.tip .grad {
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+.point {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #666;
+  transform: translateY(-2px);
+}
+/*# sourceMappingURL=index.module.css.map */

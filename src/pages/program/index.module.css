@@ -1,0 +1,157 @@
+.line {
+  left: 710px;
+}
+.left {
+  position: relative;
+  min-height: 360px;
+  width: 710px;
+  padding: 46px 30px 40px 40px;
+}
+.img {
+  padding: 4px;
+  border: 1px solid lightgrey;
+}
+.info {
+  padding-top: 24px;
+  margin-left: 172px;
+}
+.name {
+  display: flex;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+.name p {
+  font-size: 16px;
+}
+.tag {
+  height: 20px;
+}
+.radio {
+  line-height: 31px;
+}
+.radio i {
+  font-size: 24px;
+  margin-right: 8px;
+  font-weight: bold;
+  color: #999;
+}
+.radio a:first-of-type {
+  font-size: 18px;
+  margin-right: 12px;
+}
+.btn {
+  margin-top: 20px;
+}
+.descCnt {
+  margin-top: 20px;
+  display: flex;
+  line-height: 24px;
+}
+.bigName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+.bigName span {
+  font-size: 16px;
+}
+.time,
+.playCount {
+  color: #999;
+  margin-left: 18px;
+  height: 20px;
+  line-height: 30px;
+}
+.playCount span {
+  font-weight: bold;
+  color: #9B0909;
+}
+.desc {
+  margin-top: 18px;
+  color: #666;
+  line-height: 18px;
+}
+.desc span {
+  margin-right: 1em;
+}
+.list {
+  margin: 1em 0;
+  border: 1px solid lightgrey;
+}
+.list li {
+  display: flex;
+  line-height: 18px;
+}
+.list li > div {
+  height: 32px;
+  padding: 6px 10px;
+}
+.list li:hover:not(:first-of-type) {
+  background-color: #f2f2f2;
+}
+.list li:hover .duration span {
+  display: none;
+}
+.list li:hover .duration .btns {
+  display: block!important;
+}
+.list .listTitle {
+  border-bottom: 1px solid lightgrey;
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+.list .rank {
+  color: #999;
+  width: 66px;
+}
+.list .rank a {
+  color: #999;
+  font-weight: bold;
+  font-size: 20px;
+}
+.list .rank a:hover {
+  color: #666;
+}
+.list .songName {
+  width: 236px;
+}
+.list .duration {
+  width: 110px;
+}
+.list .artist {
+  width: 100px;
+}
+.list .album {
+  width: 120px;
+}
+.list .btns {
+  display: none;
+}
+.right {
+  width: 270px;
+  padding: 40px;
+}
+.title {
+  position: relative;
+}
+.all {
+  position: absolute;
+  right: 2px;
+}
+.rlist {
+  position: relative;
+  min-height: 120px;
+  margin-top: 20px;
+}
+.rlist li {
+  height: 50px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.rlist li p:first-of-type a {
+  color: #333;
+}
+.rlist li p:last-of-type span {
+  color: #999;
+}
+/*# sourceMappingURL=index.module.css.map */

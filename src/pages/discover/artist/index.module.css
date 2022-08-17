@@ -1,0 +1,63 @@
+.line {
+  left: 180px;
+}
+.left {
+  width: 180px;
+  min-height: 360px;
+  padding: 30px 10px 40px;
+}
+.list {
+  margin: 5px 0 0;
+  padding-top: 16px;
+}
+.list:not(:first-of-type) {
+  border-top: 1px solid #d3d3d3;
+}
+.list h3 {
+  height: 25px;
+  padding-left: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Microsoft Yahei";
+}
+.list li {
+  position: relative;
+  margin-bottom: 2px;
+  width: 160px;
+  height: 29px;
+  color: #afafaf;
+}
+.list li::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  content: ".";
+  width: 27px;
+  height: 100%;
+  line-height: 8px;
+  text-align: center;
+  font-size: 32px;
+}
+.list li a {
+  display: block;
+  width: 133px;
+  height: 29px;
+  color: #afafaf;
+  line-height: 29px;
+  padding-left: 27px;
+  border: 1px solid transparent;
+}
+.list .active {
+  color: red;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+.list .active a {
+  color: red;
+}
+.right {
+  width: 800px;
+  padding: 40px;
+}
+/*# sourceMappingURL=index.module.css.map */

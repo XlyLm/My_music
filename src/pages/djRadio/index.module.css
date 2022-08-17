@@ -1,0 +1,167 @@
+.line {
+  left: 710px;
+}
+.left {
+  position: relative;
+  min-height: 360px;
+  width: 710px;
+  padding: 46px 30px 40px 40px;
+}
+.img {
+  padding: 4px;
+  border: 1px solid lightgrey;
+}
+.info {
+  margin-left: 230px;
+}
+.nameCnt {
+  display: flex;
+  margin: 0 0 12px;
+  line-height: 24px;
+}
+.tag {
+  height: 20px;
+}
+.dj {
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.dj a:first-of-type {
+  margin-right: 12px;
+}
+.dj a:last-of-type {
+  color: #2bb4b4;
+}
+.flog {
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  transform: translateY(12px);
+}
+.btns {
+  display: flex;
+  margin-bottom: 25px;
+}
+.tags {
+  display: flex;
+  line-height: 22px;
+}
+.tags > div {
+  height: 22px;
+}
+.tags p {
+  color: #666;
+}
+.listCnt {
+  position: relative;
+  margin-top: 28px;
+  min-height: 360px;
+  padding-bottom: 42px;
+}
+.list {
+  border: 1px solid lightgrey;
+  border-top-width: 0;
+}
+.list li {
+  display: flex;
+  height: 56px;
+  color: #999;
+  line-height: 56px;
+}
+.list li:nth-of-type(2n) {
+  background-color: #f7f7f7;
+}
+.list li:hover {
+  background-color: #e6e6e6;
+}
+.list li:hover .name {
+  padding-right: 82px;
+}
+.list li:hover .ctrl {
+  display: block!important;
+}
+.list li > div {
+  height: 100%;
+  padding: 0 6px;
+}
+.top {
+  user-select: none;
+  font-size: 16px;
+  width: 62px;
+}
+.top a {
+  font-size: 20px;
+  color: #999;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.top a:hover {
+  color: #666;
+}
+.name {
+  position: relative;
+  width: 240px;
+}
+.ctrl {
+  display: none;
+  position: absolute;
+  right: 6px;
+  top: 0;
+}
+.play {
+  width: 81px;
+}
+.like {
+  width: 72px;
+}
+.date {
+  width: 70px;
+}
+.time {
+  width: 46px;
+}
+.page {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 12px;
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+.small {
+  color: #999;
+}
+.right {
+  width: 270px;
+  padding: 20px 40px 40px 30px;
+}
+.rec {
+  position: relative;
+  min-height: 120px;
+}
+.rec ul {
+  margin-top: 12px;
+}
+.rec ul li {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.rec p a {
+  color: #333;
+}
+.rec .dj {
+  display: flex;
+}
+.rec .dj span {
+  color: #999;
+  margin-right: 4px;
+}
+/*# sourceMappingURL=index.module.css.map */

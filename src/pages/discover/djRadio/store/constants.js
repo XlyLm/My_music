@@ -1,0 +1,10 @@
+export const INIT_DJ = "INIT_DJ";
+export const SET_DJ_TYPES = "SET_DJ_TYPES";
+export const SET_REC_DJ = "SET_REC_DJ";
+export const SET_REC_PROGROAM = "SET_REC_PROGROAM";
+export const SET_DJ_RANK = "SET_DJ_RANK";
+export const SET_PROGRAM_RANK = "SET_PROGRAM_RANK";
+export const SET_GOOD_NEW_DJ = "SET_GOOD_NEW_DJ";
+export const SET_DJ_LIST = "SET_DJ_LIST";
+export const SET_DJ_OFFSET = "SET_DJ_OFFSET";
+export const SET_DJ_TOTAL = "SET_DJ_TOTAL";

@@ -1,0 +1,101 @@
+.line {
+  left: 710px;
+}
+.left {
+  width: 710px;
+  padding: 46px 30px 40px 40px;
+}
+.infoCnt {
+  position: relative;
+  min-height: 200px;
+}
+.infoCnt p {
+  color: #666;
+  margin-top: 8px;
+}
+.head {
+  padding: 4px;
+  border: 1px solid lightgrey;
+}
+.info {
+  margin-left: 210px;
+}
+.name {
+  display: flex;
+  line-height: 20px;
+}
+.name span {
+  height: 20px;
+}
+.artist span,
+.date span,
+.company span {
+  margin-right: 8px;
+}
+.artist a {
+  color: #2bb4b4;
+}
+.btns {
+  margin-top: 18px;
+}
+.des {
+  color: #666;
+  line-height: 1.5;
+}
+.des h3 {
+  color: #333;
+  font-weight: bold;
+}
+.des p {
+  padding-left: 2em;
+}
+.songs {
+  position: relative;
+  min-height: 50px;
+  margin-top: 18px;
+}
+.coment {
+  margin-top: 18px;
+}
+.page {
+  margin-top: 12px;
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
+.right {
+  width: 270px;
+  padding: 20px 40px 40px 30px;
+}
+.otherAl {
+  position: relative;
+  min-height: 150px;
+}
+.title {
+  position: relative;
+  margin-bottom: 18px;
+}
+.title h3 {
+  font-weight: bold;
+}
+.more {
+  position: absolute;
+  right: 0;
+}
+.list h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.list h3 a {
+  color: #000;
+}
+.list li {
+  height: 50px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=index.module.css.map */

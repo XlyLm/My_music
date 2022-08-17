@@ -1,0 +1,14 @@
+.word {
+  margin-top: 20px;
+}
+.word a {
+  padding: 2px 4px;
+  color: #333;
+  font-size: 14px;
+}
+.word .active {
+  color: #fff;
+  border-radius: 2px;
+  background-color: #c20c0c;
+}
+/*# sourceMappingURL=index.module.css.map */

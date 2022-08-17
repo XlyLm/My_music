@@ -1,0 +1,35 @@
+.lines {
+  left: 708px;
+}
+.left {
+  width: 708px;
+  padding: 47px 30px 40px 38px;
+}
+.daily {
+  width: 640px;
+  height: 242px;
+}
+.calender {
+  height: 180px;
+  padding: 20px 32px;
+  opacity: 0.9;
+  background: url("//s2.music.126.net/style/web2/img/recmd_daily.jpg?65cba61ae7187074e5a2280109affbf5") no-repeat;
+}
+.btns {
+  margin-top: 30px;
+}
+.songs {
+  margin-top: 15px;
+}
+.songs .small {
+  color: #666;
+}
+.songs .songList {
+  position: relative;
+  min-height: 360px;
+}
+.right {
+  width: 270px;
+  padding: 20px 40px 40px 30px;
+}
+/*# sourceMappingURL=index.module.css.map */
