@@ -19,7 +19,6 @@ function Comment(props) {
     function changePage(_page){
         setPage(_page);
         msg[_page-1] === undefined && getCmtInfo(userId,_page-1,20).then(res=>{
-            console.log(res);
             if(res.code === 200){
                 msg[_page-1] = res.comments;
                 setMsg([...msg]);

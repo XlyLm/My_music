@@ -51,7 +51,9 @@
   cursor: pointer;
 }
 .content {
+  position: relative;
   width: 796px;
+  min-height: 360px;
   padding: 40px;
 }
 /*# sourceMappingURL=index.module.css.map */
