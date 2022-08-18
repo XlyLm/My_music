@@ -3,4 +3,18 @@
   right: 0;
   top: 0;
 }
+.list > li {
+  padding: 16px 0;
+  border-bottom: 1px dotted #ccc;
+}
+.page {
+  margin-top: 12px;
+  min-height: 32px;
+}
+.page ul {
+  text-align: center;
+}
+.page button {
+  line-height: 10px!important;
+}
 /*# sourceMappingURL=index.module.css.map */

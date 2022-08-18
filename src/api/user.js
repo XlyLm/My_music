@@ -84,3 +84,18 @@ export function getCollectMv() {
 export function getSubDj() {
     return post(`/dj/sublist`);
 }
+//获取@消息
+export function getMyInfo(_offset,_limit) {
+    return post(`/msg/forwards?offset=${_offset}&limit=${_limit}`);
+}
+//获取私信内容
+export function getPrivateInfo(_offset,_limit) {
+    return post(`/msg/private?offset=${_offset}&limit=${_limit}`);
+}
+//获取通知内容
+export function getNotifyInfo(_offset,_limit) {
+    return post(`/msg/notices?offset=${_offset}&limit=${_limit}`);
+}
+export function getCmtInfo(_id,_offset,_limit) {
+    return post(`/msg/comments?uid=${_id}&offset=${_offset}&limit=${_limit}`);
+}
