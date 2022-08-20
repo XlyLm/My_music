@@ -20,6 +20,7 @@
 }
 .name {
   position: relative;
+  line-height: 30px;
 }
 .name h3 {
   font-weight: bold;
@@ -84,12 +85,12 @@
 .userBtn {
   position: absolute;
   right: 4px;
-  top: -4px;
+  top: 0;
   border: 1px solid lightgrey;
   border-radius: 4px;
 }
 .userBtn a {
-  padding: 4px 1em;
+  padding: 0 1em;
 }
 .data {
   height: 41px;
@@ -117,5 +118,9 @@
 }
 .title .icon {
   font-size: 18px;
+}
+.child {
+  position: relative;
+  min-height: 240px;
 }
 /*# sourceMappingURL=index.module.css.map */

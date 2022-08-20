@@ -55,7 +55,6 @@ function Follow(props) {
     function getStar(){
         let offset = Math.floor(Math.random()*100);
         getHotArtists(offset,5).then(res=>{
-            console.log(res);
             if(res.code === 200){
                 setStar(res.artists);
             }

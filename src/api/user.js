@@ -96,6 +96,19 @@ export function getPrivateInfo(_offset,_limit) {
 export function getNotifyInfo(_offset,_limit) {
     return post(`/msg/notices?offset=${_offset}&limit=${_limit}`);
 }
+//获取yoghurt评论信息
 export function getCmtInfo(_id,_offset,_limit) {
     return post(`/msg/comments?uid=${_id}&offset=${_offset}&limit=${_limit}`);
+}
+//获取用户绑定信息
+export function getBindInfo(_id) {
+    return post(`/user/binding?uid=${_id}`);
+}
+//获取用户设置
+export function getUserSet() {
+    return post("/setting");
+}
+//获取用户粉丝
+export function getUserFans(_id) {
+    return post(`/user/followeds?uid=${_id}`);
 }

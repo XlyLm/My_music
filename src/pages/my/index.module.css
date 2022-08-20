@@ -65,6 +65,7 @@
 .right {
   position: relative;
   width: 740px;
+  min-height: 360px;
   background-color: #ffffff;
 }
 /*# sourceMappingURL=index.module.css.map */

@@ -59,10 +59,10 @@ function User(props) {
                                             <span>{users.nickname}</span>
                                             <i>Lv.{levels}</i>
                                             <span className={Css.gender}>
-                                                {users.gender===1 ? "女" : users.gender===0 ? "男" : null}
+                                                {users.gender===1 ? "男" : users.gender===2 ? "女" : ""}
                                             </span>
                                             {
-                                                user.id !== id &&
+                                                user.userId != id &&
                                                 <>
                                                     <a href="#" className={["iconfont",Css.chat].join(" ")}
                                                        onClick={(e)=>{e.preventDefault(); sentChat(users.userId);}}>&#xe60e; 发私信</a>
@@ -118,7 +118,9 @@ function User(props) {
                                 </p>
                             </div>
                         </div>
-                        <Outlet/>
+                        <div className={Css.child}>
+                            <Outlet/>
+                        </div>
                     </> : <Load/>
             }
         </div>

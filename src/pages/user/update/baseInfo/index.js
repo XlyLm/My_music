@@ -13,8 +13,8 @@ function BaseInfo(props) {
     }
 
     return (
-        <div className={Css.infoCnt}>
-            <div className={Css.info}>
+        <div className={["clearFix",Css.infoCnt].join(" ")}>
+            <div className={["float_l",Css.info].join(" ")}>
                 {
                     user !== null &&
                     <Form
@@ -75,7 +75,7 @@ function BaseInfo(props) {
                 }
             </div>
 
-            <div className={Css.headImg}>
+            <div className={["float_l",Css.headImg].join(" ")}>
                 <Avatar shape={"square"}
                         src={user!==null ? user.avatarUrl : ""}
                         size={140} icon={<UserOutlined />} />
